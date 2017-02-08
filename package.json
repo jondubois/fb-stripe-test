@@ -1,0 +1,28 @@
+{
+  "name": "fb-stripe-test",
+  "version": "1.0.0",
+  "description": "Firebase and Stripe integration",
+  "main": "order-processor.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 15000 --slow 15000",
+    "start": "node order-processor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jondubois/fb-stripe-test.git"
+  },
+  "author": "Jonathan Gros-Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jondubois/fb-stripe-test/issues"
+  },
+  "homepage": "https://github.com/jondubois/fb-stripe-test#readme",
+  "dependencies": {
+    "assert": "1.4.1",
+    "firebase-admin": "4.1.0",
+    "stripe": "4.15.0"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0"
+  }
+}
